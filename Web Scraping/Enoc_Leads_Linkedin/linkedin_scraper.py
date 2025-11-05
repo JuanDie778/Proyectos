@@ -804,8 +804,8 @@ async def main():
     scraper = LinkedInBIMScraperFixed()
     
     # CAMBIAR ESTAS CREDENCIALES POR LAS TUYAS
-    email = "ussaapontejuandiego@gmail.com"
-    password = "juandi778"
+    email = "*******@gmail.com"
+    password = "******"
     
     if email == "tu_email@example.com":
         print("❌ Configura tus credenciales reales")
