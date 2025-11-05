@@ -1,0 +1,27 @@
+# Archivos específicos de Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Archivos de Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb-checkpoint
+
+# Entornos Virtuales y directorios de librerías
+venv/
+env/
+.idea/
+
+# Drivers binarios (vistos en tu carpeta Aprendiendo/Web Scraping)
+*.exe
+*.dll
+
+# Archivos de datos grandes o temporales (Esto te obliga a subir datasets pequeños o proporcionar enlaces)
+*.csv
+*.xlsx
+*.parquet
+
+# Archivos de logs o secretos
+*.log
+.DS_Store
