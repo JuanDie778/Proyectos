@@ -2,13 +2,13 @@
 
 ## Descripción General del Proyecto
 
-Este proyecto es una herramienta avanzada de web scraping diseñada para científicos de datos especializados en la generación de leads y análisis de datos en el sector de la construcción y modelado de información de edificaciones (BIM). El scraper automatiza la extracción de publicaciones de LinkedIn relacionadas con profesionales BIM, aplicando técnicas sofisticadas de procesamiento de texto, clasificación geográfica y gestión de datos para crear un conjunto de datos limpio y valioso para análisis posteriores.
+Este proyecto es una herramienta avanzada de web scraping diseñada para la generación de leads y análisis de datos en el sector de la construcción y modelado de información de edificaciones (BIM). El scraper automatiza la extracción de publicaciones de LinkedIn relacionadas con profesionales BIM, aplicando técnicas sofisticadas de procesamiento de texto, clasificación geográfica y gestión de datos para crear un conjunto de datos limpio y valioso para análisis posteriores.
 
-Desde una perspectiva de ciencia de datos, este proyecto demuestra la aplicación práctica de metodologías de extracción de datos web, filtrado inteligente basado en contenido textual, verificación de ubicación mediante análisis semántico y estrategias de deduplicación para mantener la integridad de los datos. El enfoque se centra en la calidad sobre la cantidad, implementando filtros multi-nivel para asegurar que los datos recopilados sean relevantes y precisos para el mercado objetivo.
+Desde una perspectiva de ciencia de datos, este proyecto demuestra la aplicación práctica de metodologías de extracción de datos web, filtrado inteligente basado en contenido textual, verificación de ubicación mediante análisis semántico y estrategias de deduplicación para mantener la integridad de los datos, implementación de filtros multi-nivel para asegurar que los datos recopilados sean relevantes y precisos para el mercado objetivo.
 
 ## Características Principales
 
-### Extracción Inteligente de Datos
+### Extracción Inteligente de Datos (cualquiera de estos parametros se pueden modificar)
 - **Búsqueda Multi-Término**: 15 términos especializados en BIM (BIM Modeler, BIM Manager, BIM Coordinator, etc.)
 - **Cobertura Geográfica**: 5 países estratégicos (Estados Unidos, Canadá, Reino Unido, España, Colombia)
 - **Paginación Automática**: Navegación inteligente a través de múltiples páginas de resultados
@@ -72,7 +72,7 @@ password = "tu_password_seguro"
 python linkedin_scraper.py
 ```
 
-### Parámetros de Configuración
+### Parámetros de Configuración (los tiempos del procedimiento en general dependen de la cantidad de publicaciones a analizar. Para este ejemplo tarda un aproximado de entre 15 - 20 mins.)
 - `max_posts_per_term`: Límite de publicaciones por término de búsqueda (por defecto: 40)
 - `max_pages`: Número máximo de páginas por búsqueda (por defecto: 5)
 - `max_posts_total`: Límite global de publicaciones (por defecto: 1000)
@@ -167,14 +167,6 @@ LinkedInBIMScraperFixed
 - Documentar funciones con docstrings
 - Mantener cobertura de pruebas
 - Usar type hints para mejor legibilidad
-
-## Licencia
-
-Este proyecto está bajo la Licencia MIT. Ver archivo LICENSE para más detalles.
-
-## Contacto
-
-Para preguntas o colaboraciones, contactar al equipo de desarrollo.
 
 ---
 
